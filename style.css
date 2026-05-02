@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Alex Kumar — Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav id="navbar">
+    <div class="logo">Harshal<span>.</span></div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#resume">Resume</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="hamburger" id="hamburger">&#9776;</div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-content">
+      <p class="hero-greeting">Hi, I'm</p>
+      <h1>Harshal Perkhande</h1>
+      <p class="hero-role">Full-Stack Developer &amp; UI Designer</p>
+      <p class="hero-desc">I build clean and responsive web applications with great user experiences.</p>
+      <div class="hero-btns">
+        <a href="#projects" class="btn-primary">View Work</a>
+        <a href="#contact" class="btn-outline">Contact Me</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-grid">
+        <div class="about-img">
+          <div class="avatar">AK</div>
+        </div>
+        <div class="about-text">
+          <p>Hey! I'm <strong>Alex Kumar</strong>, a full-stack developer with 4+ years of experience building modern web apps. I love turning ideas into reality with clean code and great design.</p>
+          <p>I specialise in <strong>React, Node.js</strong> and cloud solutions. When I'm not coding, I'm hiking or exploring new design trends.</p>
+          <div class="about-tags">
+            <span class="tag">📍 Mumbai, India</span>
+            <span class="tag">💼 Open to Work</span>
+            <span class="tag">🎓 B.Tech CS</span>
+          </div>
+          <div class="about-stats">
+            <div class="stat"><span class="stat-num">4+</span><span>Years Exp.</span></div>
+            <div class="stat"><span class="stat-num">20+</span><span>Projects</span></div>
+            <div class="stat"><span class="stat-num">12+</span><span>Clients</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="container">
+      <h2 class="section-title">Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <h3>🖥️ Front-end</h3>
+          <div class="skill-tags">
+            <span>HTML5</span><span>CSS3</span><span>JavaScript</span>
+            <span>React</span><span>TypeScript</span><span>Tailwind</span>
+          </div>
+        </div>
+        <div class="skill-card">
+          <h3>⚙️ Back-end</h3>
+          <div class="skill-tags">
+            <span>Node.js</span><span>Express</span><span>Python</span>
+            <span>REST APIs</span><span>MongoDB</span><span>PostgreSQL</span>
+          </div>
+        </div>
+        <div class="skill-card">
+          <h3>🛠️ Tools</h3>
+          <div class="skill-tags">
+            <span>Git</span><span>Docker</span><span>AWS</span>
+            <span>Figma</span><span>Linux</span><span>CI/CD</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="bars">
+        <div class="bar-item">
+          <span>JavaScript</span>
+          <div class="bar-track"><div class="bar-fill" data-width="95"></div></div>
+          <span>95%</span>
+        </div>
+        <div class="bar-item">
+          <span>React</span>
+          <div class="bar-track"><div class="bar-fill" data-width="90"></div></div>
+          <span>90%</span>
+        </div>
+        <div class="bar-item">
+          <span>Node.js</span>
+          <div class="bar-track"><div class="bar-fill" data-width="85"></div></div>
+          <span>85%</span>
+        </div>
+        <div class="bar-item">
+          <span>UI Design</span>
+          <div class="bar-track"><div class="bar-fill" data-width="80"></div></div>
+          <span>80%</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="container">
+      <h2 class="section-title">Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-img p1">01</div>
+          <div class="project-info">
+            <h3>E-commerce Platform</h3>
+            <p>Full-stack shopping app with React, Node.js and Stripe payments. Features real-time inventory tracking.</p>
+            <div class="project-tags">
+              <span>React</span><span>Node.js</span><span>MongoDB</span>
+            </div>
+            <a href="#" class="project-link">View Project →</a>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-img p2">02</div>
+          <div class="project-info">
+            <h3>Task Manager App</h3>
+            <p>Kanban-style productivity tool with drag-and-drop, real-time collaboration and analytics.</p>
+            <div class="project-tags">
+              <span>TypeScript</span><span>Socket.io</span><span>PostgreSQL</span>
+            </div>
+            <a href="#" class="project-link">View Project →</a>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-img p3">03</div>
+          <div class="project-info">
+            <h3>Weather Dashboard</h3>
+            <p>Responsive weather app with 7-day forecasts and interactive maps using OpenWeatherMap API.</p>
+            <div class="project-tags">
+              <span>JavaScript</span><span>REST API</span><span>CSS3</span>
+            </div>
+            <a href="#" class="project-link">View Project →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RESUME -->
+  <section id="resume">
+    <div class="container">
+      <h2 class="section-title">Resume</h2>
+      <div class="resume-box">
+        <div class="resume-info">
+          <h3>Alex Kumar — Resume 2025</h3>
+          <p>Full-Stack Developer · PDF · 1 page</p>
+        </div>
+        <a href="resume.pdf" download class="btn-primary">⬇ Download PDF</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="container">
+      <h2 class="section-title">Contact</h2>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <div class="contact-item">
+            <span class="contact-icon">📧</span>
+            <div>
+              <p class="contact-label">Email</p>
+              <a href="mailto:alex@example.com">alex@example.com</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <span class="contact-icon">📞</span>
+            <div>
+              <p class="contact-label">Phone</p>
+              <a href="tel:+919876543210">+91 98765 43210</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <span class="contact-icon">💼</span>
+            <div>
+              <p class="contact-label">LinkedIn</p>
+              <a href="https://linkedin.com/in/alexkumar" target="_blank">linkedin.com/in/alexkumar</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <span class="contact-icon">🐙</span>
+            <div>
+              <p class="contact-label">GitHub</p>
+              <a href="https://github.com/alexkumar" target="_blank">github.com/alexkumar</a>
+            </div>
+          </div>
+        </div>
+
+        <form class="contact-form" id="contactForm">
+          <input type="text" placeholder="Your Name" required />
+          <input type="email" placeholder="Your Email" required />
+          <textarea rows="4" placeholder="Your Message..." required></textarea>
+          <button type="submit" class="btn-primary">Send Message</button>
+          <p class="form-msg" id="formMsg"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2025 Alex Kumar. Built with HTML, CSS &amp; JavaScript.</p>
+    <div class="footer-links">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#resume">Resume</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
